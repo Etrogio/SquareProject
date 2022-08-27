@@ -1,8 +1,6 @@
 #ifndef MYADVMATH_H_INCLUDED
 #define MYADVMATH_H_INCLUDED
 
-#include <math.h>
-
 const double MINDIF = 1e-20;
 
 /*!
@@ -29,21 +27,5 @@ double MINDouble(double a, double b);
     \return         True if equal and false if not equal.
 */
 bool DoubleEqual(double a, double b);
-
-double MAXDouble(double a, double b)
-{
-    return (a > b) ? a : b;
-}
-
-double MINDouble(double a, double b)
-{
-    return (a < b) ? a : b;
-}
-
-bool DoubleEqual(double a, double b)
-{
-    return fabs(a - b) < MINDIF;
-}
-
 
 #endif // MYADVMATH_H_INCLUDED

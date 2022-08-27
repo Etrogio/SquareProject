@@ -32,17 +32,25 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="MyAdvMath.cpp" />
 		<Unit filename="MyAdvMath.h">
-			<Option target="&lt;{~None~}&gt;" />
+			<Option compile="1" />
+			<Option link="1" />
 		</Unit>
+		<Unit filename="RootTestSquareEquation.cpp" />
 		<Unit filename="RootTestSquareEquation.h">
-			<Option target="&lt;{~None~}&gt;" />
+			<Option compile="1" />
+			<Option link="1" />
 		</Unit>
+		<Unit filename="SquareSolver.cpp" />
 		<Unit filename="SquareSolver.h">
-			<Option target="&lt;{~None~}&gt;" />
+			<Option compile="1" />
+			<Option link="1" />
 		</Unit>
+		<Unit filename="UniversUseful.cpp" />
 		<Unit filename="UniversUseful.h">
-			<Option target="&lt;{~None~}&gt;" />
+			<Option compile="1" />
+			<Option link="1" />
 		</Unit>
 		<Unit filename="main.cpp" />
 		<Extensions>

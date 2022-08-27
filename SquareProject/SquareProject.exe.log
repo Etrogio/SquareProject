@@ -1,0 +1,228 @@
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\CodeBlocksPrograms\SquareProject\SquareProject.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x004A5DD6 в функции feof(). Попытка прочесть данные по адресу 0x0000000C в модуле C:\CodeBlocksPrograms\SquareProject\SquareProject.exe. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400], Instance: 0x004F32FC (32-bit), Flags: Cmdre0, Thread: 0x1EEC (Main), _doserrno: 2 (No such file or directory). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x004A5DD6 in C:\CodeBlocksPrograms\SquareProject\SquareProject.exe: feof()
+# 1 0x0041D86E in C:\CodeBlocksPrograms\SquareProject\SquareProject.exe: CheckFileLine()
+# 2 0x0041D927 in C:\CodeBlocksPrograms\SquareProject\SquareProject.exe: RootTest()
+# 3 0x0041C40E in C:\CodeBlocksPrograms\SquareProject\SquareProject.exe: main()
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\codeblocks\codeblocks\mingw\include\txlib.h
+Compiled:	Aug 26 2022 17:31:41, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Aug 26 2022 17:32:08
+
+Run file:	C:\CodeBlocksPrograms\SquareProject\SquareProject.exe
+Directory:	C:\CodeBlocksPrograms\SquareProject
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\CodeBlocksPrograms\SquareProject\SquareProject.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x004A5DD6 в функции feof(). Попытка прочесть данные по адресу 0x0000000C в модуле C:\CodeBlocksPrograms\SquareProject\SquareProject.exe. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400], Instance: 0x004F32FC (32-bit), Flags: Cmdre0, Thread: 0x1EEC (Main), _doserrno: 2 (No such file or directory). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x004A5DD6 in C:\CodeBlocksPrograms\SquareProject\SquareProject.exe: feof()
+# 1 0x0041D86E in C:\CodeBlocksPrograms\SquareProject\SquareProject.exe: CheckFileLine()
+# 2 0x0041D927 in C:\CodeBlocksPrograms\SquareProject\SquareProject.exe: RootTest()
+# 3 0x0041C40E in C:\CodeBlocksPrograms\SquareProject\SquareProject.exe: main()
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\codeblocks\codeblocks\mingw\include\txlib.h
+Compiled:	Aug 26 2022 17:31:41, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Aug 26 2022 17:32:08
+
+Run file:	C:\CodeBlocksPrograms\SquareProject\SquareProject.exe
+Directory:	C:\CodeBlocksPrograms\SquareProject
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\CodeBlocksPrograms\SquareProject\SquareProject.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x004A5DD6 в функции feof(). Попытка прочесть данные по адресу 0x0000000C в модуле C:\CodeBlocksPrograms\SquareProject\SquareProject.exe. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400], Instance: 0x004F32FC (32-bit), Flags: Cmdre0, Thread: 0x1E80 (Main), _doserrno: 2 (No such file or directory). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x004A5DD6 in C:\CodeBlocksPrograms\SquareProject\SquareProject.exe: feof()
+# 1 0x0041D86E in C:\CodeBlocksPrograms\SquareProject\SquareProject.exe: CheckFileLine()
+# 2 0x0041D927 in C:\CodeBlocksPrograms\SquareProject\SquareProject.exe: RootTest()
+# 3 0x0041C40E in C:\CodeBlocksPrograms\SquareProject\SquareProject.exe: main()
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\codeblocks\codeblocks\mingw\include\txlib.h
+Compiled:	Aug 26 2022 17:31:41, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Aug 26 2022 17:33:44
+
+Run file:	C:\CodeBlocksPrograms\SquareProject\SquareProject.exe
+Directory:	C:\CodeBlocksPrograms\SquareProject
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\CodeBlocksPrograms\SquareProject\SquareProject.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x004A5DD6 в функции feof(). Попытка прочесть данные по адресу 0x0000000C в модуле C:\CodeBlocksPrograms\SquareProject\SquareProject.exe. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400], Instance: 0x004F32FC (32-bit), Flags: Cmdre0, Thread: 0x1E80 (Main), _doserrno: 2 (No such file or directory). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x004A5DD6 in C:\CodeBlocksPrograms\SquareProject\SquareProject.exe: feof()
+# 1 0x0041D86E in C:\CodeBlocksPrograms\SquareProject\SquareProject.exe: CheckFileLine()
+# 2 0x0041D927 in C:\CodeBlocksPrograms\SquareProject\SquareProject.exe: RootTest()
+# 3 0x0041C40E in C:\CodeBlocksPrograms\SquareProject\SquareProject.exe: main()
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\codeblocks\codeblocks\mingw\include\txlib.h
+Compiled:	Aug 26 2022 17:31:41, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Aug 26 2022 17:33:44
+
+Run file:	C:\CodeBlocksPrograms\SquareProject\SquareProject.exe
+Directory:	C:\CodeBlocksPrograms\SquareProject
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\CodeBlocksPrograms\SquareProject\SquareProject.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x004A5DD6 в функции feof(). Попытка прочесть данные по адресу 0x0000000C в модуле C:\CodeBlocksPrograms\SquareProject\SquareProject.exe. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400], Instance: 0x004F32FC (32-bit), Flags: Cmdre0, Thread: 0x938 (Main), _doserrno: 2 (No such file or directory). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x004A5DD6 in C:\CodeBlocksPrograms\SquareProject\SquareProject.exe: feof()
+# 1 0x0041D86E in C:\CodeBlocksPrograms\SquareProject\SquareProject.exe: CheckFileLine()
+# 2 0x0041D927 in C:\CodeBlocksPrograms\SquareProject\SquareProject.exe: RootTest()
+# 3 0x0041C40E in C:\CodeBlocksPrograms\SquareProject\SquareProject.exe: main()
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\codeblocks\codeblocks\mingw\include\txlib.h
+Compiled:	Aug 26 2022 18:39:30, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Aug 26 2022 18:40:18
+
+Run file:	C:\CodeBlocksPrograms\SquareProject\SquareProject.exe
+Directory:	C:\CodeBlocksPrograms\SquareProject
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\CodeBlocksPrograms\SquareProject\SquareProject.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x004A5DD6 в функции feof(). Попытка прочесть данные по адресу 0x0000000C в модуле C:\CodeBlocksPrograms\SquareProject\SquareProject.exe. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400], Instance: 0x004F32FC (32-bit), Flags: Cmdre0, Thread: 0x938 (Main), _doserrno: 2 (No such file or directory). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x004A5DD6 in C:\CodeBlocksPrograms\SquareProject\SquareProject.exe: feof()
+# 1 0x0041D86E in C:\CodeBlocksPrograms\SquareProject\SquareProject.exe: CheckFileLine()
+# 2 0x0041D927 in C:\CodeBlocksPrograms\SquareProject\SquareProject.exe: RootTest()
+# 3 0x0041C40E in C:\CodeBlocksPrograms\SquareProject\SquareProject.exe: main()
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\codeblocks\codeblocks\mingw\include\txlib.h
+Compiled:	Aug 26 2022 18:39:30, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Aug 26 2022 18:40:18
+
+Run file:	C:\CodeBlocksPrograms\SquareProject\SquareProject.exe
+Directory:	C:\CodeBlocksPrograms\SquareProject
+
+--------------------------------------------------

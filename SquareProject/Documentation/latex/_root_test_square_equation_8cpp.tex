@@ -1,0 +1,90 @@
+\hypertarget{_root_test_square_equation_8cpp}{}\doxysection{Root\+Test\+Square\+Equation.\+cpp File Reference}
+\label{_root_test_square_equation_8cpp}\index{RootTestSquareEquation.cpp@{RootTestSquareEquation.cpp}}
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$math.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}My\+Adv\+Math.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Square\+Solver.\+h\char`\"{}}\newline
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{_root_test_square_equation_8cpp_af30100fd4338bb63b89159c28a2f8be0}{Root\+Test\+Success}} (void)
+\item 
+void \mbox{\hyperlink{_root_test_square_equation_8cpp_a808a4ca3f8450b98b4a62c4c2be107ae}{Root\+Test\+Error}} (int Numof\+Solv, double x1, double x2, int Corr\+\_\+\+Numof\+Solv, double Corr\+\_\+x1, double Corr\+\_\+x2)
+\item 
+void \mbox{\hyperlink{_root_test_square_equation_8cpp_a44795971e3c8a9866efa506245a4ea4c}{One\+Root\+Test}} (double a, double b, double c, int Corr\+\_\+\+Numof\+Solv, double Corr\+\_\+x1, double Corr\+\_\+x2)
+\item 
+int \mbox{\hyperlink{_root_test_square_equation_8cpp_abe91b543542dbdfe89371d6413bca166}{Check\+File\+Line}} (FILE $\ast$Testfile)
+\item 
+void \mbox{\hyperlink{_root_test_square_equation_8cpp_a5fee70e4afea974dd04c16ab09e9fadd}{Root\+Test}} (void)
+\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+const int \mbox{\hyperlink{_root_test_square_equation_8cpp_aab57c2fd7b8a8e9d9e5e57bd8b123cc2}{INFINITY\+\_\+\+ROOTS}} = -\/1
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{_root_test_square_equation_8cpp_abe91b543542dbdfe89371d6413bca166}\label{_root_test_square_equation_8cpp_abe91b543542dbdfe89371d6413bca166}} 
+\index{RootTestSquareEquation.cpp@{RootTestSquareEquation.cpp}!CheckFileLine@{CheckFileLine}}
+\index{CheckFileLine@{CheckFileLine}!RootTestSquareEquation.cpp@{RootTestSquareEquation.cpp}}
+\doxysubsubsection{\texorpdfstring{CheckFileLine()}{CheckFileLine()}}
+{\footnotesize\ttfamily int Check\+File\+Line (\begin{DoxyParamCaption}\item[{FILE $\ast$}]{Testfile }\end{DoxyParamCaption})}
+
+This function checks the line of file whether it is correct and skips this line if not. 
+
+Definition at line 89 of file Root\+Test\+Square\+Equation.\+cpp.
+
+\mbox{\Hypertarget{_root_test_square_equation_8cpp_a44795971e3c8a9866efa506245a4ea4c}\label{_root_test_square_equation_8cpp_a44795971e3c8a9866efa506245a4ea4c}} 
+\index{RootTestSquareEquation.cpp@{RootTestSquareEquation.cpp}!OneRootTest@{OneRootTest}}
+\index{OneRootTest@{OneRootTest}!RootTestSquareEquation.cpp@{RootTestSquareEquation.cpp}}
+\doxysubsubsection{\texorpdfstring{OneRootTest()}{OneRootTest()}}
+{\footnotesize\ttfamily void One\+Root\+Test (\begin{DoxyParamCaption}\item[{double}]{a,  }\item[{double}]{b,  }\item[{double}]{c,  }\item[{int}]{Corr\+\_\+\+Numof\+Solv,  }\item[{double}]{Corr\+\_\+x1,  }\item[{double}]{Corr\+\_\+x2 }\end{DoxyParamCaption})}
+
+This function tests the Square\+Solver comparing correct roots and solve from Square\+Solver 
+
+Definition at line 23 of file Root\+Test\+Square\+Equation.\+cpp.
+
+\mbox{\Hypertarget{_root_test_square_equation_8cpp_a5fee70e4afea974dd04c16ab09e9fadd}\label{_root_test_square_equation_8cpp_a5fee70e4afea974dd04c16ab09e9fadd}} 
+\index{RootTestSquareEquation.cpp@{RootTestSquareEquation.cpp}!RootTest@{RootTest}}
+\index{RootTest@{RootTest}!RootTestSquareEquation.cpp@{RootTestSquareEquation.cpp}}
+\doxysubsubsection{\texorpdfstring{RootTest()}{RootTest()}}
+{\footnotesize\ttfamily void Root\+Test (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+Full test. This function reads test file and tests the Square\+Solver; 
+
+Definition at line 100 of file Root\+Test\+Square\+Equation.\+cpp.
+
+\mbox{\Hypertarget{_root_test_square_equation_8cpp_a808a4ca3f8450b98b4a62c4c2be107ae}\label{_root_test_square_equation_8cpp_a808a4ca3f8450b98b4a62c4c2be107ae}} 
+\index{RootTestSquareEquation.cpp@{RootTestSquareEquation.cpp}!RootTestError@{RootTestError}}
+\index{RootTestError@{RootTestError}!RootTestSquareEquation.cpp@{RootTestSquareEquation.cpp}}
+\doxysubsubsection{\texorpdfstring{RootTestError()}{RootTestError()}}
+{\footnotesize\ttfamily void Root\+Test\+Error (\begin{DoxyParamCaption}\item[{int}]{Numof\+Solv,  }\item[{double}]{x1,  }\item[{double}]{x2,  }\item[{int}]{Corr\+\_\+\+Numof\+Solv,  }\item[{double}]{Corr\+\_\+x1,  }\item[{double}]{Corr\+\_\+x2 }\end{DoxyParamCaption})}
+
+This function displays error, correct answer and roots from Square\+Solver. 
+
+Definition at line 14 of file Root\+Test\+Square\+Equation.\+cpp.
+
+\mbox{\Hypertarget{_root_test_square_equation_8cpp_af30100fd4338bb63b89159c28a2f8be0}\label{_root_test_square_equation_8cpp_af30100fd4338bb63b89159c28a2f8be0}} 
+\index{RootTestSquareEquation.cpp@{RootTestSquareEquation.cpp}!RootTestSuccess@{RootTestSuccess}}
+\index{RootTestSuccess@{RootTestSuccess}!RootTestSquareEquation.cpp@{RootTestSquareEquation.cpp}}
+\doxysubsubsection{\texorpdfstring{RootTestSuccess()}{RootTestSuccess()}}
+{\footnotesize\ttfamily void Root\+Test\+Success (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+This function prints \char`\"{}\+Success!\char`\"{} 
+
+Definition at line 9 of file Root\+Test\+Square\+Equation.\+cpp.
+
+
+
+\doxysubsection{Variable Documentation}
+\mbox{\Hypertarget{_root_test_square_equation_8cpp_aab57c2fd7b8a8e9d9e5e57bd8b123cc2}\label{_root_test_square_equation_8cpp_aab57c2fd7b8a8e9d9e5e57bd8b123cc2}} 
+\index{RootTestSquareEquation.cpp@{RootTestSquareEquation.cpp}!INFINITY\_ROOTS@{INFINITY\_ROOTS}}
+\index{INFINITY\_ROOTS@{INFINITY\_ROOTS}!RootTestSquareEquation.cpp@{RootTestSquareEquation.cpp}}
+\doxysubsubsection{\texorpdfstring{INFINITY\_ROOTS}{INFINITY\_ROOTS}}
+{\footnotesize\ttfamily const int INFINITY\+\_\+\+ROOTS = -\/1}
+
+
+
+Definition at line 7 of file Root\+Test\+Square\+Equation.\+cpp.
+

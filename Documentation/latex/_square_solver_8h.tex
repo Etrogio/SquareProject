@@ -1,0 +1,162 @@
+\hypertarget{_square_solver_8h}{}\doxysection{headers/\+Square\+Solver.h File Reference}
+\label{_square_solver_8h}\index{headers/SquareSolver.h@{headers/SquareSolver.h}}
+{\ttfamily \#include $<$assert.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}Adv\+Math.\+h\char`\"{}}\newline
+\doxysubsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{_square_solver_8h_a7822198ed33111749f491ece6169b805}{Numof\+Roots}} \{ \mbox{\hyperlink{_square_solver_8h_a7822198ed33111749f491ece6169b805a9ad15b4894eaddae83013e3f3dc0e3bb}{Infinity\+\_\+\+Roots}} = -\/1
+, \mbox{\hyperlink{_square_solver_8h_a7822198ed33111749f491ece6169b805ae8247da5614b9e14ddd60c4d2e8c6c0d}{Zero\+\_\+\+Roots}} = 0
+, \mbox{\hyperlink{_square_solver_8h_a7822198ed33111749f491ece6169b805a1d0ddb44d336f5440e51418a8d46ee9e}{One\+\_\+\+Root}} = 1
+, \mbox{\hyperlink{_square_solver_8h_a7822198ed33111749f491ece6169b805ac511e2b8bb756da7b38b3374834341f3}{Two\+\_\+\+Roots}} = 2
+ \}
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{_square_solver_8h_a7822198ed33111749f491ece6169b805}{Numof\+Roots}} \mbox{\hyperlink{_square_solver_8h_ad354b67cd23946c1bed5e3d2c5965d6d}{is\+Coeff\+Zero}} (double a, double b, double c, double $\ast$x1, double $\ast$x2)
+\item 
+enum \mbox{\hyperlink{_square_solver_8h_a7822198ed33111749f491ece6169b805}{Numof\+Roots}} \mbox{\hyperlink{_square_solver_8h_af46cd81d389b8fe608ffe07880e61a3e}{linear\+Solver}} (double a, double b, double $\ast$x)
+\item 
+enum \mbox{\hyperlink{_square_solver_8h_a7822198ed33111749f491ece6169b805}{Numof\+Roots}} \mbox{\hyperlink{_square_solver_8h_a09b11f88dd4b00321363dc9cb30ce980}{square\+Solver}} (double a, double b, double c, double $\ast$x1, double $\ast$x2)
+\item 
+void \mbox{\hyperlink{_square_solver_8h_a55133a9a27944d23794019c34ff18306}{scan\+Coeff}} (double $\ast$a, double $\ast$b, double $\ast$c)
+\item 
+void \mbox{\hyperlink{_square_solver_8h_a74cc744b8faeef9bed1e5b39ad4c5043}{out\+Solv}} (enum \mbox{\hyperlink{_square_solver_8h_a7822198ed33111749f491ece6169b805}{Numof\+Roots}} a, double x1, double x2)
+\item 
+void \mbox{\hyperlink{_square_solver_8h_ad0917c5dd9928e98d4f840c1ef98bd5c}{full\+Square\+Equation\+Solver}} (void)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Enumeration Type Documentation}
+\mbox{\Hypertarget{_square_solver_8h_a7822198ed33111749f491ece6169b805}\label{_square_solver_8h_a7822198ed33111749f491ece6169b805}} 
+\index{SquareSolver.h@{SquareSolver.h}!NumofRoots@{NumofRoots}}
+\index{NumofRoots@{NumofRoots}!SquareSolver.h@{SquareSolver.h}}
+\doxysubsubsection{\texorpdfstring{NumofRoots}{NumofRoots}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{_square_solver_8h_a7822198ed33111749f491ece6169b805}{Numof\+Roots}}}
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Infinity\_Roots@{Infinity\_Roots}!SquareSolver.h@{SquareSolver.h}}\index{SquareSolver.h@{SquareSolver.h}!Infinity\_Roots@{Infinity\_Roots}}}\mbox{\Hypertarget{_square_solver_8h_a7822198ed33111749f491ece6169b805a9ad15b4894eaddae83013e3f3dc0e3bb}\label{_square_solver_8h_a7822198ed33111749f491ece6169b805a9ad15b4894eaddae83013e3f3dc0e3bb}} 
+Infinity\+\_\+\+Roots&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Zero\_Roots@{Zero\_Roots}!SquareSolver.h@{SquareSolver.h}}\index{SquareSolver.h@{SquareSolver.h}!Zero\_Roots@{Zero\_Roots}}}\mbox{\Hypertarget{_square_solver_8h_a7822198ed33111749f491ece6169b805ae8247da5614b9e14ddd60c4d2e8c6c0d}\label{_square_solver_8h_a7822198ed33111749f491ece6169b805ae8247da5614b9e14ddd60c4d2e8c6c0d}} 
+Zero\+\_\+\+Roots&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{One\_Root@{One\_Root}!SquareSolver.h@{SquareSolver.h}}\index{SquareSolver.h@{SquareSolver.h}!One\_Root@{One\_Root}}}\mbox{\Hypertarget{_square_solver_8h_a7822198ed33111749f491ece6169b805a1d0ddb44d336f5440e51418a8d46ee9e}\label{_square_solver_8h_a7822198ed33111749f491ece6169b805a1d0ddb44d336f5440e51418a8d46ee9e}} 
+One\+\_\+\+Root&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Two\_Roots@{Two\_Roots}!SquareSolver.h@{SquareSolver.h}}\index{SquareSolver.h@{SquareSolver.h}!Two\_Roots@{Two\_Roots}}}\mbox{\Hypertarget{_square_solver_8h_a7822198ed33111749f491ece6169b805ac511e2b8bb756da7b38b3374834341f3}\label{_square_solver_8h_a7822198ed33111749f491ece6169b805ac511e2b8bb756da7b38b3374834341f3}} 
+Two\+\_\+\+Roots&\\
+\hline
+
+\end{DoxyEnumFields}
+
+
+Definition at line 7 of file Square\+Solver.\+h.
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{_square_solver_8h_ad0917c5dd9928e98d4f840c1ef98bd5c}\label{_square_solver_8h_ad0917c5dd9928e98d4f840c1ef98bd5c}} 
+\index{SquareSolver.h@{SquareSolver.h}!fullSquareEquationSolver@{fullSquareEquationSolver}}
+\index{fullSquareEquationSolver@{fullSquareEquationSolver}!SquareSolver.h@{SquareSolver.h}}
+\doxysubsubsection{\texorpdfstring{fullSquareEquationSolver()}{fullSquareEquationSolver()}}
+{\footnotesize\ttfamily void full\+Square\+Equation\+Solver (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+This function gets coefficients, solves the equation and outputs the answer. 
+
+Definition at line 123 of file Square\+Solver.\+cpp.
+
+\mbox{\Hypertarget{_square_solver_8h_ad354b67cd23946c1bed5e3d2c5965d6d}\label{_square_solver_8h_ad354b67cd23946c1bed5e3d2c5965d6d}} 
+\index{SquareSolver.h@{SquareSolver.h}!isCoeffZero@{isCoeffZero}}
+\index{isCoeffZero@{isCoeffZero}!SquareSolver.h@{SquareSolver.h}}
+\doxysubsubsection{\texorpdfstring{isCoeffZero()}{isCoeffZero()}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{_square_solver_8h_a7822198ed33111749f491ece6169b805}{Numof\+Roots}} is\+Coeff\+Zero (\begin{DoxyParamCaption}\item[{double}]{a,  }\item[{double}]{b,  }\item[{double}]{c,  }\item[{double $\ast$}]{x1,  }\item[{double $\ast$}]{x2 }\end{DoxyParamCaption})}
+
+This function checks whether any of coefficients is zero and if it is, calculates roots through simplified formulas. 
+
+Definition at line 33 of file Square\+Solver.\+cpp.
+
+\mbox{\Hypertarget{_square_solver_8h_af46cd81d389b8fe608ffe07880e61a3e}\label{_square_solver_8h_af46cd81d389b8fe608ffe07880e61a3e}} 
+\index{SquareSolver.h@{SquareSolver.h}!linearSolver@{linearSolver}}
+\index{linearSolver@{linearSolver}!SquareSolver.h@{SquareSolver.h}}
+\doxysubsubsection{\texorpdfstring{linearSolver()}{linearSolver()}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{_square_solver_8h_a7822198ed33111749f491ece6169b805}{Numof\+Roots}} linear\+Solver (\begin{DoxyParamCaption}\item[{double}]{a,  }\item[{double}]{b,  }\item[{double $\ast$}]{x }\end{DoxyParamCaption})}
+
+Function Linear\+Solver returns the number of the roots of the linear equation of the form a$\ast$x + b = 0 and records the value if there is only one root.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em a,b} & The coefficients of the linear equation. \\
+\hline
+\mbox{\texttt{ out}}  & {\em x} & The root of the linear equation. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The number of roots. 
+\end{DoxyReturn}
+
+
+Definition at line 1 of file Square\+Solver.\+cpp.
+
+\mbox{\Hypertarget{_square_solver_8h_a74cc744b8faeef9bed1e5b39ad4c5043}\label{_square_solver_8h_a74cc744b8faeef9bed1e5b39ad4c5043}} 
+\index{SquareSolver.h@{SquareSolver.h}!outSolv@{outSolv}}
+\index{outSolv@{outSolv}!SquareSolver.h@{SquareSolver.h}}
+\doxysubsubsection{\texorpdfstring{outSolv()}{outSolv()}}
+{\footnotesize\ttfamily void out\+Solv (\begin{DoxyParamCaption}\item[{enum \mbox{\hyperlink{_square_solver_8h_a7822198ed33111749f491ece6169b805}{Numof\+Roots}}}]{a,  }\item[{double}]{x1,  }\item[{double}]{x2 }\end{DoxyParamCaption})}
+
+Function Out\+Solv displays the number of roots and their values if they exist.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em a} & The number of roots of the square equation. \\
+\hline
+\mbox{\texttt{ in}}  & {\em x1,x2} & The roots of square equation if they exist. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 33 of file Square\+Solver.\+cpp.
+
+\mbox{\Hypertarget{_square_solver_8h_a55133a9a27944d23794019c34ff18306}\label{_square_solver_8h_a55133a9a27944d23794019c34ff18306}} 
+\index{SquareSolver.h@{SquareSolver.h}!scanCoeff@{scanCoeff}}
+\index{scanCoeff@{scanCoeff}!SquareSolver.h@{SquareSolver.h}}
+\doxysubsubsection{\texorpdfstring{scanCoeff()}{scanCoeff()}}
+{\footnotesize\ttfamily void scan\+Coeff (\begin{DoxyParamCaption}\item[{double $\ast$}]{a,  }\item[{double $\ast$}]{b,  }\item[{double $\ast$}]{c }\end{DoxyParamCaption})}
+
+Function Scan\+Coeff accepts coefficients, clears the buffer and checks the input for correctness.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ out}}  & {\em a,b,c} & The coefficients of the square equation. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 21 of file Square\+Solver.\+cpp.
+
+\mbox{\Hypertarget{_square_solver_8h_a09b11f88dd4b00321363dc9cb30ce980}\label{_square_solver_8h_a09b11f88dd4b00321363dc9cb30ce980}} 
+\index{SquareSolver.h@{SquareSolver.h}!squareSolver@{squareSolver}}
+\index{squareSolver@{squareSolver}!SquareSolver.h@{SquareSolver.h}}
+\doxysubsubsection{\texorpdfstring{squareSolver()}{squareSolver()}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{_square_solver_8h_a7822198ed33111749f491ece6169b805}{Numof\+Roots}} square\+Solver (\begin{DoxyParamCaption}\item[{double}]{a,  }\item[{double}]{b,  }\item[{double}]{c,  }\item[{double $\ast$}]{x1,  }\item[{double $\ast$}]{x2 }\end{DoxyParamCaption})}
+
+Function Square\+Solver returns the number of the roots from the obtained values of the coefficients of the square equation and records their values if there are two or one root.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em a,b,c} & The coefficients of square equation. \\
+\hline
+\mbox{\texttt{ out}}  & {\em x1,x2} & The roots of square equation. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The number of roots. 
+\end{DoxyReturn}
+
+
+Definition at line 33 of file Square\+Solver.\+cpp.
+

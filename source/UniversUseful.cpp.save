@@ -1,0 +1,7 @@
+#include <stdio.h>
+#include "../headers/UniversUseful.h"
+
+void clearBuf(void)
+{
+    while (getchar() != '\n') continue;
+}

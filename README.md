@@ -23,4 +23,4 @@ This program can solve square equation, if you kindly enter the coefficients.
  
 ## Thanks for ded32.
 
-MIT license
+## MIT license
